@@ -8,7 +8,7 @@ Ejemplo
 Ingresa el valor inicial: 5
 Ingrese el valor final: 9
 La suma es 35 y se sumaron 5 términos 
- */
+*/
 public class Problema4 {
 
     public static void main(String[] args) {

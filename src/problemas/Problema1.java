@@ -11,20 +11,18 @@ Ingrese su consumo gasto de corriente eléctrica: 1200
 Su tarifa de luz es: 1.0
 */
 public class Problema1 {
-    
+
     public static void main(String[] args) {
         int consumo;
         Scanner sc = new Scanner(System.in);
         System.out.println("Ingrese su consumo gasto de corriente eléctrica:");
         consumo = sc.nextInt();
-        if(consumo < 1000 ){
+        if (consumo < 1000) {
             System.out.println("Su tarifa de luz es: " + "1.2");
-        }
-        else if(consumo >= 1000 && consumo <= 1850){
+        } else if (consumo >= 1000 && consumo <= 1850) {
             System.out.println("Su tarifa de luz es: " + "1.0");
-        }
-        else{
-        System.out.println("Su tarifa de luz es: " + "0.9");
+        } else {
+            System.out.println("Su tarifa de luz es: " + "0.9");
         }
     }
 
